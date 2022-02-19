@@ -1,0 +1,23 @@
+.customMenu {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(21, 83, 83, 0.5);
+    padding: 80px;
+    margin-top: 40px;
+    filter: blur(1px);
+    position: relative;
+}
+
+.customMenuField {
+    margin-top: 45px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.customMenu .nav-link {
+    color: #fff;
+}
+
+.notMargin {
+    margin-top: 0px;
+}
