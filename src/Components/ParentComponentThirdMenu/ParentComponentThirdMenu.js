@@ -1,5 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import HeroSection from '../HeroSection/HeroSection';
 import ThirdMenu from '../ThirdMenu/ThirdMenu';
 
 const ParentComponentThirdMenu = () => {
@@ -10,7 +11,7 @@ const ParentComponentThirdMenu = () => {
                     <ThirdMenu></ThirdMenu>
                 </Col>
                 <Col lg={8}>
-                    <h1>Hellow World</h1>
+                    <HeroSection></HeroSection>
                 </Col>
             </Row>
         </Container>
